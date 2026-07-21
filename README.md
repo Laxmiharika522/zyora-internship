@@ -8,9 +8,9 @@ This repository documents my learning journey throughout the **15-day Frontend D
 
 ---
 
-## Day 1 – Kickoff & Developer Workflow
+# Day 1 – Kickoff & Developer Workflow
 
-### Objectives
+## Objectives
 
 - Set up the development environment.
 - Configure Git and GitHub for version control.
@@ -29,6 +29,40 @@ The `index.html` file serves as my Developer Launch Page and includes:
 - My goals for the internship.
 - What I aim to build during the 15-day program.
 - My motivation for joining the Zyora Frontend Developer Internship.
+
+---
+
+# Day 2 – HTML Deep-Dive: Structure Like a Pro
+
+## Topics Covered
+
+- Semantic HTML elements (`header`, `nav`, `main`, `section`, `footer`)
+- Proper heading hierarchy
+- Navigation using internal links
+- Lists
+- Tables
+- Images with descriptive `alt` text
+- HTML Forms and Inputs
+
+---
+
+## Day 2 Tasks Completed
+
+The Developer Launch Page was upgraded into a structured multi-section website using only HTML.
+
+### New Features Added
+
+- Added a semantic **navigation bar** with links to each section.
+- Created an **About** section introducing myself.
+- Added a **Skills** section using an unordered list.
+- Added an **Education** section using an HTML table.
+- Included a **Contact** section with a form containing:
+  - Name field
+  - Email field
+  - Message field
+  - Submit button
+- Added a profile image with appropriate **alt** text.
+- Used semantic HTML elements throughout the page without using CSS.
 
 ---
 
@@ -51,15 +85,17 @@ Throughout this internship, I aim to:
 - Develop interactive web applications using JavaScript.
 - Build modern user interfaces with React.
 - Understand professional development workflows using Git and GitHub.
-- Collaborate effectively on a team project.
-- Deploy a live web application and strengthen my developer portfolio.
+- Collaborate effectively on team projects.
+- Deploy live web applications and strengthen my developer portfolio.
 
 ---
 
 ## Repository Structure
 
-```
+```text
 zyora-internship/
+├── images/
+│   └── profileImage.png
 ├── index.html
 └── README.md
 ```
@@ -76,4 +112,4 @@ I am **Raminedi Laxmi Harika**, a third-year B.Tech Computer Science student wit
 
 ## Acknowledgement
 
-This repository has been created as part of the **ZyoraByte Frontend Developer Internship** and will be maintained throughout the 15-day program to showcase my learning progress and project development.
+This repository has been created as part of the **ZyoraByte Frontend Developer Internship** and will be maintained throughout the 15-day program to showcase my learning progress, assignments, and project development.
