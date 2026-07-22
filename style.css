@@ -163,3 +163,90 @@ tr:nth-child(even){
 tr:hover{
     background:#e9f3ff;
 }
+/* ===========================
+   Contact Form
+=========================== */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+input,
+textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+input:focus,
+textarea:focus{
+    outline:none;
+    border-color:#0f4c81;
+}
+
+button{
+    margin-top:25px;
+    padding:14px;
+    background:#0f4c81;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d6fb8;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+    text-align:center;
+    background:#0f4c81;
+    color:white;
+    padding:25px;
+    margin-top:40px;
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .skills-container{
+        justify-content:center;
+    }
+
+    section{
+        width:92%;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+}
