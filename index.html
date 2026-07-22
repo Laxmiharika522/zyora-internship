@@ -1,132 +1,202 @@
-<header>
-    <h1>👋 Hello, I'm Raminedi Laxmi Harika</h1>
-    <p>B.Tech Computer Science Student | Frontend Developer Intern | Passionate Learner</p>
+<!DOCTYPE html>
+<html lang="en">
 
-    <img src="./images/profileImage.png"
-         alt="Profile photo of Raminedi Laxmi Harika"
-         width="200">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <hr>
+    <title>Developer Launch Page</title>
 
-    <nav>
-        <a href="#about">About</a> |
-        <a href="#skills">Skills</a> |
-        <a href="#education">Education</a> |
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <hr>
-</header>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
 
-<main>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    <section id="about">
-        <h2>About Me</h2>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <h1 class="logo">👋 Raminedi Laxmi Harika</h1>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="hero">
+
+            <img src="./images/profileImage.png"
+                alt="Profile photo of Raminedi Laxmi Harika">
+
+            <p>
+                B.Tech Computer Science Student |
+                Frontend Developer Intern |
+                Passionate Learner
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a third-year B.Tech Computer Science student with a strong
+                interest in frontend development, web technologies,
+                and software engineering.
+                I enjoy building responsive and user-friendly websites while
+                improving my programming and problem-solving skills.
+            </p>
+
+            <p>
+                Through hands-on projects and continuous learning,
+                I aim to become a skilled frontend developer capable of
+                building modern and interactive web applications.
+            </p>
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill-card">HTML5</div>
+
+                <div class="skill-card">CSS3</div>
+
+                <div class="skill-card">JavaScript</div>
+
+                <div class="skill-card">Java</div>
+
+                <div class="skill-card">React.js (Learning)</div>
+
+                <div class="skill-card">Git & GitHub</div>
+
+                <div class="skill-card">Problem Solving</div>
+
+            </div>
+
+        </section>
+
+
+        <section id="education">
+
+            <h2>Education</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Score</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>B.Tech Computer Science</td>
+                        <td>VIT Chennai</td>
+                        <td>2024 - Present</td>
+                        <td>CGPA: 9.25</td>
+                    </tr>
+
+                    <tr>
+                        <td>Class XII</td>
+                        <td>Sri Chaitanya Junior College</td>
+                        <td>2024</td>
+                        <td>98.5%</td>
+                    </tr>
+
+                    <tr>
+                        <td>Class X</td>
+                        <td>Sri Chaitanya School</td>
+                        <td>2022</td>
+                        <td>97.5%</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label>Name</label>
+
+                <input
+                    type="text"
+                    placeholder="Enter your name"
+                    required>
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    required>
+
+                <label>Message</label>
+
+                <textarea
+                    rows="6"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer>
 
         <p>
-            I am a third-year B.Tech Computer Science student with a strong interest
-            in frontend development, web technologies, and software engineering.
-            I enjoy building responsive and user-friendly websites while improving
-            my programming and problem-solving skills.
+            Thank you for visiting my Developer Launch Page.
+            This marks the beginning of my frontend development journey with
+            ZyoraByte.
         </p>
 
-        <p>
-            Through hands-on projects and continuous learning, I aim to become
-            a skilled frontend developer capable of building modern and interactive
-            web applications.
-        </p>
-    </section>
+    </footer>
 
-    <hr>
+</body>
 
-    <section id="skills">
-        <h2>Skills</h2>
-
-        <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>React.js (Learning)</li>
-            <li>Git & GitHub</li>
-            <li>Problem Solving</li>
-        </ul>
-    </section>
-
-    <hr>
-
-    <section id="education">
-        <h2>Education</h2>
-
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Qualification</th>
-                    <th>Institution</th>
-                    <th>Year</th>
-                    <th>Score</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td>B.Tech Computer Science</td>
-                    <td>VIT Chennai</td>
-                    <td>2024 - Present</td>
-                    <td>CGPA: 9.25</td>
-                </tr>
-
-                <tr>
-                    <td>Class XII</td>
-                    <td>Sri Chaitanya Junior College, Andhra Pradesh</td>
-                    <td>2024</td>
-                    <td>98.5%</td>
-                </tr>
-
-                <tr>
-                    <td>Class X</td>
-                    <td>Sri Chaitanya School, Andhra Pradesh</td>
-                    <td>2022</td>
-                    <td>97.5%</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <hr>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-
-        <form action="#" method="post">
-
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required>
-
-            <br><br>
-
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required>
-
-            <br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="30" required></textarea>
-
-            <br><br>
-
-            <button type="submit">Send Message</button>
-
-        </form>
-    </section>
-
-</main>
-
-<hr>
-
-<footer>
-    <p>
-        Thank you for visiting my Developer Launch Page.
-        This marks the beginning of my frontend development journey with ZyoraByte.
-    </p>
-</footer>
-        
+</html>
