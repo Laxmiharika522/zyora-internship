@@ -82,17 +82,17 @@ header{
 }
 
 .hero img{
-    width:10rem;
+    width:min(10rem,100%);
     height:10rem;
     border-radius:50%;
     border:5px solid white;
     object-fit:cover;
-    max-width:100%;
 }
 
 .hero p{
-    margin-top:1rem;
+    margin:1rem auto 0;
     font-size:1rem;
+    max-width:40rem;
 }
 /* ===========================
    Sections
@@ -100,10 +100,11 @@ header{
 
 section{
     background:white;
-    margin:40px auto;
-    width:85%;
-    padding:35px;
-    border-radius:12px;
+    width:90%;
+    max-width:1100px;
+    margin:2rem auto;
+    padding:2rem;
+    border-radius:.75rem;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
 }
 
@@ -143,8 +144,13 @@ section h2{
    Education Table
 =========================== */
 
+.table-container{
+    overflow-x:auto;
+}
+
 table{
     width:100%;
+    min-width:600px;
     border-collapse:collapse;
 }
 
@@ -189,6 +195,12 @@ textarea{
     border-radius:8px;
     font-size:16px;
     font-family:'Poppins',sans-serif;
+}
+
+input,
+textarea,
+button{
+    width:100%;
 }
 
 input:focus,
@@ -255,6 +267,17 @@ footer{
 
     .skills-container{
         grid-template-columns:repeat(2,1fr);
+    }
+
+}
+@media (min-width:1024px){
+
+    .skills-container{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+    section{
+        padding:2.5rem;
     }
 
 }
