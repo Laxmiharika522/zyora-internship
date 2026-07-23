@@ -114,16 +114,17 @@ section h2{
 =========================== */
 
 .skills-container{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
 }
 
 .skill-card{
     background:#0f4c81;
     color:white;
-    padding:18px 28px;
-    border-radius:10px;
+    text-align:center;
+    padding:1rem;
+    border-radius:.6rem;
     cursor:pointer;
     font-weight:500;
     transition:.3s;
