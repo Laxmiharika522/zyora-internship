@@ -54,7 +54,7 @@ The Developer Launch Page was upgraded into a structured multi-section website u
 
 - Added a semantic **navigation bar** with links to each section.
 - Created an **About** section introducing myself.
-- Added a **Skills** section using an unordered list.
+- Added a **Skills** section.
 - Added an **Education** section using an HTML table.
 - Included a **Contact** section with a form containing:
   - Name field
@@ -75,27 +75,60 @@ The Developer Launch Page was upgraded into a structured multi-section website u
 - CSS Box Model (margin, border, padding, and content)
 - Colors and typography
 - Flexbox (`display`, `justify-content`, `align-items`, `gap`)
-- Responsive design using media queries
 - Hover effects and transitions
 
 ---
 
 ## Day 3 Tasks Completed
 
-The Developer Launch Page was transformed into a visually appealing and responsive webpage using CSS.
+The Developer Launch Page was transformed into a visually appealing webpage using CSS.
 
 ### New Features Added
 
 - Created an external `style.css` file and linked it with `index.html`.
 - Applied a consistent **blue and white color scheme** across the website.
 - Used **Google Fonts (Poppins & Merriweather)** for modern typography.
-- Designed a responsive **navigation bar** using **Flexbox**, placing the name on the left and navigation links on the right.
-- Converted the **Skills** section into responsive **Flexbox cards** with padding, rounded corners, and hover animations.
-- Styled the **Education** table with borders, alternating row colors, proper spacing, and hover effects.
-- Designed a clean **Contact Form** with readable inputs, spacing, rounded corners, focus effects, and a styled submit button.
+- Designed the navigation bar using **Flexbox**, placing the name and navigation links in a clean layout.
+- Converted the **Skills** section into attractive cards with hover animations.
+- Styled the **Education** table with borders, alternating row colors, spacing, and hover effects.
+- Designed a clean **Contact Form** with styled inputs, focus effects, and a responsive submit button.
 - Applied the **CSS Box Model** throughout the webpage using consistent margins, padding, borders, and spacing.
-- Added smooth hover effects to buttons, navigation links, and skill cards for better user interaction.
-- Implemented a **responsive layout** using media queries to ensure the webpage displays well on different screen sizes.
+- Added smooth hover effects to navigation links, buttons, and skill cards.
+
+---
+
+# Day 4 – CSS II: Responsive Design
+
+## Topics Covered
+
+- Viewport meta tag
+- Mobile-first responsive design
+- CSS Grid
+- Responsive navigation
+- Relative units (`%`, `rem`, `max-width`)
+- Media queries
+- Responsive images and layouts
+- Cross-device testing
+
+---
+
+## Day 4 Tasks Completed
+
+The Developer Launch Page was enhanced to provide an optimal experience across mobile, tablet, and desktop devices.
+
+### New Features Added
+
+- Added the viewport meta tag for proper mobile rendering.
+- Implemented a mobile-first responsive layout.
+- Converted the **Skills** section into a responsive **CSS Grid** layout:
+  - 1 column on mobile
+  - 2 columns on tablets
+  - 4 columns on desktops
+- Made the navigation adapt gracefully on smaller screens using Flexbox.
+- Replaced fixed widths with responsive units such as `%`, `rem`, and `max-width`.
+- Improved responsiveness of images, sections, and form elements.
+- Added horizontal scrolling for the education table on smaller screens.
+- Tested the webpage using browser DevTools on mobile, tablet, and desktop screen sizes.
 
 ---
 
@@ -104,6 +137,8 @@ The Developer Launch Page was transformed into a visually appealing and responsi
 - HTML5
 - CSS3
 - Flexbox
+- CSS Grid
+- Responsive Web Design
 - Git
 - GitHub
 - Visual Studio Code
@@ -118,7 +153,7 @@ Throughout this internship, I aim to:
 
 - Build a strong foundation in frontend development.
 - Master semantic HTML and modern CSS.
-- Learn responsive web design using Flexbox and CSS layouts.
+- Learn responsive web design using Flexbox and CSS Grid.
 - Develop interactive web applications using JavaScript.
 - Build modern user interfaces with React.
 - Understand professional development workflows using Git and GitHub.
@@ -143,6 +178,7 @@ zyora-internship/
 ## Project Progress
 
 ### ✅ Day 1
+
 - Set up the development environment.
 - Configured Git and GitHub.
 - Created the GitHub repository.
@@ -150,18 +186,29 @@ zyora-internship/
 - Added project documentation.
 
 ### ✅ Day 2
+
 - Structured the webpage using semantic HTML.
 - Added navigation, About, Skills, Education, and Contact sections.
-- Implemented tables, lists, forms, and images.
+- Implemented tables, forms, and images.
 - Improved accessibility using descriptive `alt` text.
 
 ### ✅ Day 3
+
 - Designed the webpage using CSS.
 - Applied the CSS Box Model.
 - Styled the navigation bar with Flexbox.
 - Converted skills into responsive cards.
 - Styled the education table and contact form.
-- Added hover effects and responsive design.
+- Added hover effects for better user interaction.
+
+### ✅ Day 4
+
+- Implemented a mobile-first responsive layout.
+- Added CSS Grid for responsive skill cards.
+- Improved navigation responsiveness.
+- Used responsive units (`%`, `rem`, and `max-width`) throughout the layout.
+- Optimized images, sections, forms, and tables for different screen sizes.
+- Tested the webpage on mobile, tablet, and desktop using browser DevTools.
 
 ---
 
@@ -169,7 +216,7 @@ zyora-internship/
 
 I am **Raminedi Laxmi Harika**, a third-year **B.Tech Computer Science** student with a passion for frontend development, software engineering, and continuous learning.
 
-Through this internship, I aim to strengthen my web development skills, gain practical industry experience, and build modern, responsive web applications while following professional development practices.
+Through this internship, I aim to strengthen my web development skills, gain practical industry experience, and build modern, responsive web applications while following professional development best practices.
 
 ---
 
