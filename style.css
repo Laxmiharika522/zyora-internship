@@ -34,7 +34,7 @@ h1,h2{
 header{
     background:#0f4c81;
     color:white;
-    padding:25px 60px;
+    padding:2rem 1rem;
 }
 
 /* ===========================
@@ -43,18 +43,21 @@ header{
 
 .navbar{
     display:flex;
-    justify-content:space-between;
+    flex-direction:column;
     align-items:center;
-    flex-wrap:wrap;
+    gap:1rem;
 }
 
 .logo{
-    font-size:28px;
+    text-align:center;
+    font-size:2rem;
 }
 
 .nav-links{
     display:flex;
-    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:1rem;
     list-style:none;
 }
 
@@ -75,22 +78,22 @@ header{
 
 .hero{
     text-align:center;
-    margin-top:35px;
+    margin-top:2rem;
 }
 
 .hero img{
-    width:180px;
-    height:180px;
+    width:10rem;
+    height:10rem;
     border-radius:50%;
     border:5px solid white;
     object-fit:cover;
-    margin-bottom:20px;
+    max-width:100%;
 }
 
 .hero p{
-    font-size:18px;
+    margin-top:1rem;
+    font-size:1rem;
 }
-
 /* ===========================
    Sections
 =========================== */
@@ -226,28 +229,32 @@ footer{
    Responsive Design
 =========================== */
 
-@media(max-width:768px){
+@media (min-width:768px){
 
-    .navbar{
-        flex-direction:column;
-        gap:20px;
+    header{
+        padding:2rem 4rem;
     }
 
-    .nav-links{
-        flex-direction:column;
-        align-items:center;
+    .navbar{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+    .logo{
+        text-align:left;
+    }
+
+    .hero img{
+        width:11rem;
+        height:11rem;
+    }
+
+    .hero p{
+        font-size:1.1rem;
     }
 
     .skills-container{
-        justify-content:center;
-    }
-
-    section{
-        width:92%;
-    }
-
-    table{
-        font-size:14px;
+        grid-template-columns:repeat(2,1fr);
     }
 
 }
