@@ -77,10 +77,12 @@ form.addEventListener("submit", function (e) {
     }
 
     // Success
-    formMessage.textContent = "✅ Thank you! Your message has been validated successfully.";
+    formMessage.textContent = "✅ Your message has been successfully submitted.";
     formMessage.style.color = "#16a34a";
 
     console.log("Validation Successful");
 
     form.reset();
 });
+
+

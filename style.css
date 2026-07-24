@@ -392,3 +392,9 @@ body.dark-mode button[type="submit"]{
 body.dark-mode button[type="submit"]:hover{
     background:#3b82f6;
 }
+
+#formMessage{
+    margin-top:15px;
+    font-weight:600;
+    text-align:center;
+}
