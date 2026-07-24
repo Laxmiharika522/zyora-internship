@@ -281,3 +281,114 @@ footer{
     }
 
 }
+
+/* ===========================
+   Professional Dark Mode
+=========================== */
+
+#themeToggle{
+    background:#ffffff;
+    color:#0f4c81;
+    border:none;
+    padding:10px 18px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#themeToggle:hover{
+    background:#e9f2ff;
+}
+
+/* Body */
+body.dark-mode{
+    background:#0f172a;
+    color:#e2e8f0;
+    transition:0.3s;
+}
+
+/* Header & Footer */
+body.dark-mode header,
+body.dark-mode footer{
+    background:#1e293b;
+}
+
+/* Sections */
+body.dark-mode section{
+    background:#1f2937;
+    color:#e5e7eb;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+
+/* Headings */
+body.dark-mode h2{
+    color:#60a5fa;
+}
+
+/* Navigation */
+body.dark-mode .nav-links a{
+    color:#f8fafc;
+}
+
+body.dark-mode .nav-links a:hover{
+    color:#60a5fa;
+}
+
+/* Skill Cards */
+body.dark-mode .skill-card{
+    background:#2563eb;
+}
+
+body.dark-mode .skill-card:hover{
+    background:#3b82f6;
+}
+
+/* Table */
+body.dark-mode table{
+    color:#f8fafc;
+}
+
+body.dark-mode th{
+    background:#2563eb;
+}
+
+body.dark-mode td{
+    border-color:#475569;
+}
+
+body.dark-mode tr:nth-child(even){
+    background:#334155;
+}
+
+body.dark-mode tr:hover{
+    background:#475569;
+}
+
+/* Form */
+body.dark-mode input,
+body.dark-mode textarea{
+    background:#334155;
+    color:#ffffff;
+    border:1px solid #64748b;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder{
+    color:#cbd5e1;
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus{
+    border-color:#60a5fa;
+}
+
+/* Button */
+body.dark-mode button[type="submit"]{
+    background:#2563eb;
+}
+
+body.dark-mode button[type="submit"]:hover{
+    background:#3b82f6;
+}
