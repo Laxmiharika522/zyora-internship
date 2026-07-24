@@ -132,10 +132,42 @@ The Developer Launch Page was enhanced to provide an optimal experience across m
 
 ---
 
+# Day 5 – JavaScript I: DOM & Events
+
+## Topics Covered
+
+- JavaScript variables and functions
+- DOM manipulation using `querySelector()`
+- Event handling with `addEventListener()`
+- Changing HTML content and CSS styles dynamically
+- Form validation
+- Preventing default form submission using `e.preventDefault()`
+
+---
+
+## Day 5 Tasks Completed
+
+The Developer Launch Page was enhanced with JavaScript to make the website interactive and user-friendly.
+
+### New Features Added
+
+- Created an external `script.js` file and linked it using `<script src="script.js" defer></script>`.
+- Implemented a **Dark Mode Toggle** using JavaScript by toggling a CSS class on the `<body>` element.
+- Dynamically updated the toggle button text between **Dark Mode** and **Light Mode**.
+- Added client-side validation for the Contact Form.
+- Displayed appropriate error messages for empty input fields.
+- Validated email addresses using a regular expression.
+- Displayed a confirmation message after successful form validation.
+- Prevented the default form submission using `e.preventDefault()`.
+- Used `console.log()` statements to debug JavaScript functionality during development.
+
+---
+
 ## Technologies & Tools
 
 - HTML5
 - CSS3
+- JavaScript (ES6)
 - Flexbox
 - CSS Grid
 - Responsive Web Design
@@ -155,6 +187,7 @@ Throughout this internship, I aim to:
 - Master semantic HTML and modern CSS.
 - Learn responsive web design using Flexbox and CSS Grid.
 - Develop interactive web applications using JavaScript.
+- Learn DOM manipulation, event handling, and client-side form validation.
 - Build modern user interfaces with React.
 - Understand professional development workflows using Git and GitHub.
 - Collaborate effectively on team projects.
@@ -170,6 +203,7 @@ zyora-internship/
 │   └── profileImage.png
 ├── index.html
 ├── style.css
+├── script.js
 └── README.md
 ```
 
@@ -209,6 +243,16 @@ zyora-internship/
 - Used responsive units (`%`, `rem`, and `max-width`) throughout the layout.
 - Optimized images, sections, forms, and tables for different screen sizes.
 - Tested the webpage on mobile, tablet, and desktop using browser DevTools.
+
+### ✅ Day 5
+
+- Added JavaScript to make the webpage interactive.
+- Implemented a Dark Mode toggle using DOM manipulation.
+- Added client-side validation for the contact form.
+- Validated user inputs and email format.
+- Displayed appropriate error and success messages.
+- Prevented default form submission using `e.preventDefault()`.
+- Used `console.log()` for debugging JavaScript functionality.
 
 ---
 
