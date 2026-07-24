@@ -158,32 +158,36 @@
 
             <h2>Contact Me</h2>
 
-            <form>
+            <form id="contactForm">
 
                 <label>Name</label>
 
                 <input
                     type="text"
+                    id="name"
                     placeholder="Enter your name"
-                    required>
+                    >
 
                 <label>Email</label>
 
                 <input
                     type="email"
+                    id="email"
                     placeholder="Enter your email"
-                    required>
+                    >
 
                 <label>Message</label>
 
                 <textarea
+                    id="message"
                     rows="6"
                     placeholder="Write your message..."
-                    required></textarea>
+                   ></textarea>
 
                 <button type="submit">
                     Send Message
                 </button>
+                <p id="formMessage"></p>
 
             </form>
 
