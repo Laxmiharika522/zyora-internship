@@ -85,6 +85,10 @@ form.addEventListener("submit", function (e) {
     form.reset();
 });
 
+// Quotable API (https://api.quotable.io/random) is currently unreliable and
+// may return connection errors or be unavailable. Therefore, we use the
+// DummyJSON Quotes API, which is a free, public, no-auth API that provides
+// random quotes reliably for learning and frontend projects.
 
 const quoteText = document.querySelector("#quoteText");
 const quoteAuthor = document.querySelector("#quoteAuthor");
@@ -97,7 +101,7 @@ async function loadQuote() {
     quoteAuthor.textContent = "";
 
     try {
-
+        
         const response = await fetch("https://dummyjson.com/quotes/random");
 
         if (!response.ok) {
@@ -120,8 +124,6 @@ async function loadQuote() {
 
 }
 
-// Load quote when page opens
 loadQuote();
 
-// Fetch another quote when button is clicked
 newQuoteBtn.addEventListener("click", loadQuote);
