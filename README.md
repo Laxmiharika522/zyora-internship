@@ -163,6 +163,37 @@ The Developer Launch Page was enhanced with JavaScript to make the website inter
 
 ---
 
+# Day 6 – JavaScript II: Arrays, Objects & APIs
+
+## Topics Covered
+
+- Arrays and Objects
+- Working with JSON data
+- Fetch API (`fetch()`)
+- Asynchronous programming using `async`/`await`
+- Loading and error handling
+- Consuming public REST APIs
+- Dynamic DOM updates
+
+---
+
+## Day 6 Tasks Completed
+
+The Developer Launch Page was enhanced by integrating live data from a free public API.
+
+### New Features Added
+
+- Added a dedicated **Quote of the Moment** section to the webpage.
+- Integrated the **DummyJSON Quotes API** to fetch and display random inspirational quotes.
+- Used the **Fetch API** with `async`/`await` to retrieve live JSON data.
+- Parsed JSON responses and dynamically updated webpage content using JavaScript.
+- Implemented a **Loading...** state while waiting for the API response.
+- Added error handling to display **"Couldn't fetch data."** if the request fails.
+- Included a **Get New Quote** button that fetches and displays a new random quote without refreshing the page.
+- Added comments explaining the use of the DummyJSON Quotes API as a reliable alternative to the unavailable Quotable API.
+
+---
+
 ## Technologies & Tools
 
 - HTML5
@@ -176,6 +207,9 @@ The Developer Launch Page was enhanced with JavaScript to make the website inter
 - Visual Studio Code
 - Node.js LTS
 - Google Fonts
+- Fetch API
+- JSON
+- DummyJSON Quotes API
 
 ---
 
@@ -187,7 +221,7 @@ Throughout this internship, I aim to:
 - Master semantic HTML and modern CSS.
 - Learn responsive web design using Flexbox and CSS Grid.
 - Develop interactive web applications using JavaScript.
-- Learn DOM manipulation, event handling, and client-side form validation.
+- Learn DOM manipulation, event handling, client-side form validation, and API integration.
 - Build modern user interfaces with React.
 - Understand professional development workflows using Git and GitHub.
 - Collaborate effectively on team projects.
@@ -253,6 +287,15 @@ zyora-internship/
 - Displayed appropriate error and success messages.
 - Prevented default form submission using `e.preventDefault()`.
 - Used `console.log()` for debugging JavaScript functionality.
+
+### ✅ Day 6
+
+- Integrated a free public Quotes API using the Fetch API.
+- Displayed live random quotes dynamically on the webpage.
+- Parsed JSON data and updated the DOM.
+- Implemented loading and error states.
+- Added a button to fetch a new quote without reloading the page.
+- Practiced asynchronous JavaScript using `async`/`await`.
 
 ---
 
