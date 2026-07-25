@@ -86,3 +86,42 @@ form.addEventListener("submit", function (e) {
 });
 
 
+const quoteText = document.querySelector("#quoteText");
+const quoteAuthor = document.querySelector("#quoteAuthor");
+const newQuoteBtn = document.querySelector("#newQuoteBtn");
+
+async function loadQuote() {
+
+    // Loading State
+    quoteText.textContent = "Loading...";
+    quoteAuthor.textContent = "";
+
+    try {
+
+        const response = await fetch("https://dummyjson.com/quotes/random");
+
+        if (!response.ok) {
+            throw new Error("Failed to fetch quote");
+        }
+
+        const data = await response.json();
+
+        quoteText.textContent = `"${data.quote}"`;
+        quoteAuthor.textContent = `— ${data.author}`;
+
+    } catch (error) {
+
+        quoteText.textContent = "Couldn't fetch data.";
+        quoteAuthor.textContent = "";
+
+        console.error("Error:", error);
+
+    }
+
+}
+
+// Load quote when page opens
+loadQuote();
+
+// Fetch another quote when button is clicked
+newQuoteBtn.addEventListener("click", loadQuote);
